@@ -1,0 +1,46 @@
+#albums {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.album {
+  width: 500px;
+  height: 500px;
+  border: 1px solid #eee;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 9px 0px #a8a8a8;
+}
+
+.album img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.album-info {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.album-info h1 {
+  font-family: sans-serif;
+  color: #000;
+}
+
+.album-info h3 {
+  font-family: sans-serif;
+  color: #000;
+}
+
+.album-info p {
+  font-family: sans-serif;
+  color: #797979;
+}
